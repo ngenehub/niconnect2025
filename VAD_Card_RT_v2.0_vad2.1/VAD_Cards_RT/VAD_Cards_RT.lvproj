@@ -15,7 +15,7 @@
 	</Item>
 	<Item Name="NI-sbRIO-9609-01F18A42" Type="RT Single-Board RIO">
 		<Property Name="alias.name" Type="Str">NI-sbRIO-9609-01F18A42</Property>
-		<Property Name="alias.value" Type="Str">169.254.123.115</Property>
+		<Property Name="alias.value" Type="Str">169.254.131.52</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,x64;DeviceCode,7A41;NO_CUDA,TRUE;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">7A41</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
@@ -93,6 +93,7 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
+		<Item Name="2_2_PatchCore_Inference(Camera)(Snap).vi" Type="VI" URL="../2_2_PatchCore_Inference(Camera)(Snap).vi"/>
 		<Item Name="2_2_PatchCore_Inference(Camera).vi" Type="VI" URL="../2_2_PatchCore_Inference(Camera).vi"/>
 		<Item Name="Chassis" Type="sbRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">express</Property>
